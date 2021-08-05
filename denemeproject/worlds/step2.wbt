@@ -1,0 +1,1184 @@
+#VRML_SIM R2021a utf8
+WorldInfo {
+  coordinateSystem "NUE"
+}
+Viewpoint {
+  orientation -0.21001966092231886 -0.9558809790648197 -0.20538572464549698 1.6228429199285446
+  position -3.893788744422253 1.7977290426551236 -0.25387875869076737
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+  translation -0.118839 1.77636e-15 0.29429
+  floorSize 5 5
+  floorAppearance Parquetry {
+    type "light strip"
+  }
+  wallThickness 0.05
+  wallHeight 0.2
+  wallAppearance BrushedAluminium {
+    IBLStrength 9
+  }
+}
+E-puck {
+  translation -0.265148 -1.4988e-15 -0.152213
+  name "follower_e-puck1(5)"
+  controller "follower_green"
+  turretSlot [
+    Solid {
+      translation 0 0.005 0.02
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0 1 0
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.01
+            subdivision 2
+          }
+        }
+      ]
+      name "solid(1)"
+      recognitionColors [
+        0 1 0
+      ]
+    }
+    Solid {
+      children [
+        HingeJoint {
+          jointParameters HingeJointParameters {
+            axis 0 1 0
+            anchor 0 0.02 0
+          }
+          device [
+            RotationalMotor {
+              name "RM"
+            }
+          ]
+          endPoint Solid {
+            translation 0 0.015 -0.006
+            rotation 0 0 1 0
+            scale 0.5 0.5 0.5
+            children [
+              Camera {
+                translation 0 0.01 -0.01
+                name "mod_camera"
+                width 1080
+                height 1080
+                recognition Recognition {
+                  frameColor 0 1 0
+                  frameThickness 3
+                }
+              }
+              Shape {
+                appearance PBRAppearance {
+                }
+                geometry Cylinder {
+                  height 0.02
+                  radius 0.01
+                }
+              }
+            ]
+          }
+        }
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0 1
+            roughness 1
+          }
+          geometry Box {
+            size 0.02 0.02 0.02
+          }
+        }
+      ]
+    }
+  ]
+}
+E-puck {
+  translation -0.24369 8.27116e-15 0.168655
+  name "follower_e-puck1(13)"
+  controller "follower_green"
+  turretSlot [
+    Solid {
+      translation 0 0.005 0.02
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0 0 1
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.01
+            subdivision 2
+          }
+        }
+      ]
+      name "solid(1)"
+      recognitionColors [
+        0 0 1
+      ]
+    }
+    Solid {
+      children [
+        HingeJoint {
+          jointParameters HingeJointParameters {
+            axis 0 1 0
+            anchor 0 0.02 0
+          }
+          device [
+            RotationalMotor {
+              name "RM"
+            }
+          ]
+          endPoint Solid {
+            translation 0 0.015 -0.006
+            rotation 0 0 1 0
+            scale 0.5 0.5 0.5
+            children [
+              Camera {
+                translation 0 0.01 -0.01
+                name "mod_camera"
+                width 1080
+                height 1080
+                recognition Recognition {
+                  frameColor 0 1 0
+                  frameThickness 3
+                }
+              }
+              Shape {
+                appearance PBRAppearance {
+                }
+                geometry Cylinder {
+                  height 0.02
+                  radius 0.01
+                }
+              }
+            ]
+          }
+        }
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0 1
+            roughness 1
+          }
+          geometry Box {
+            size 0.02 0.02 0.02
+          }
+        }
+      ]
+    }
+  ]
+}
+E-puck {
+  translation -0.253596 -1.7597e-14 -0.01155
+  name "follower_e-puck1(11)"
+  controller "follower_green"
+  turretSlot [
+    Solid {
+      translation 0 0.005 0.02
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0 1 0
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.01
+            subdivision 2
+          }
+        }
+      ]
+      name "solid(1)"
+      recognitionColors [
+        0 1 0
+      ]
+    }
+    Solid {
+      children [
+        HingeJoint {
+          jointParameters HingeJointParameters {
+            axis 0 1 0
+            anchor 0 0.02 0
+          }
+          device [
+            RotationalMotor {
+              name "RM"
+            }
+          ]
+          endPoint Solid {
+            translation 0 0.015 -0.006
+            rotation 0 0 1 0
+            scale 0.5 0.5 0.5
+            children [
+              Camera {
+                translation 0 0.01 -0.01
+                name "mod_camera"
+                width 1080
+                height 1080
+                recognition Recognition {
+                  frameColor 0 1 0
+                  frameThickness 3
+                }
+              }
+              Shape {
+                appearance PBRAppearance {
+                }
+                geometry Cylinder {
+                  height 0.02
+                  radius 0.01
+                }
+              }
+            ]
+          }
+        }
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0 1
+            roughness 1
+          }
+          geometry Box {
+            size 0.02 0.02 0.02
+          }
+        }
+      ]
+    }
+  ]
+}
+E-puck {
+  translation -0.27867 1.38778e-15 -0.295376
+  name "follower_e-puck1(6)"
+  controller "follower_green"
+  turretSlot [
+    Solid {
+      translation 0 0.005 0.02
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0 1 0
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.01
+            subdivision 2
+          }
+        }
+      ]
+      name "solid(1)"
+      recognitionColors [
+        0 1 0
+      ]
+    }
+    Solid {
+      children [
+        HingeJoint {
+          jointParameters HingeJointParameters {
+            axis 0 1 0
+            anchor 0 0.02 0
+          }
+          device [
+            RotationalMotor {
+              name "RM"
+            }
+          ]
+          endPoint Solid {
+            translation 0 0.015 -0.006
+            rotation 0 0 1 0
+            scale 0.5 0.5 0.5
+            children [
+              Camera {
+                translation 0 0.01 -0.01
+                name "mod_camera"
+                width 1080
+                height 1080
+                recognition Recognition {
+                  frameColor 0 1 0
+                  frameThickness 3
+                }
+              }
+              Shape {
+                appearance PBRAppearance {
+                }
+                geometry Cylinder {
+                  height 0.02
+                  radius 0.01
+                }
+              }
+            ]
+          }
+        }
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0 1
+            roughness 1
+          }
+          geometry Box {
+            size 0.02 0.02 0.02
+          }
+        }
+      ]
+    }
+  ]
+}
+E-puck {
+  translation -0.564277 4.71845e-15 0.487107
+  name "follower_e-puck1(4)"
+  controller "follower"
+  turretSlot [
+    Solid {
+      translation 0 0.005 0.02
+      scale 1.5 1.5 1.5
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0 1 0
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.01
+            subdivision 2
+          }
+        }
+      ]
+      name "solid(1)"
+      recognitionColors [
+        0 1 0
+      ]
+    }
+    Solid {
+      children [
+        HingeJoint {
+          jointParameters HingeJointParameters {
+            axis 0 1 0
+            anchor 0 0.02 0
+          }
+          device [
+            RotationalMotor {
+              name "RM"
+            }
+          ]
+          endPoint Solid {
+            translation 0 0.015 -0.006
+            rotation 0 0 1 0
+            scale 0.5 0.5 0.5
+            children [
+              Camera {
+                translation 0 0.01 -0.01
+                name "mod_camera"
+                width 1080
+                height 1080
+                recognition Recognition {
+                  frameColor 0 1 0
+                  frameThickness 3
+                }
+              }
+              Shape {
+                appearance PBRAppearance {
+                }
+                geometry Cylinder {
+                  height 0.02
+                  radius 0.01
+                }
+              }
+            ]
+          }
+        }
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0 1
+            roughness 1
+          }
+          geometry Box {
+            size 0.02 0.02 0.02
+          }
+        }
+      ]
+    }
+  ]
+}
+E-puck {
+  translation -0.566359 -1.89293e-14 0.348485
+  name "follower_e-puck1(3)"
+  controller "follower"
+  turretSlot [
+    Solid {
+      translation 0 0.005 0.02
+      scale 1.5 1.5 1.5
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0 0
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.01
+            subdivision 2
+          }
+        }
+      ]
+      name "solid(1)"
+      recognitionColors [
+        1 0 0
+      ]
+    }
+    Solid {
+      children [
+        HingeJoint {
+          jointParameters HingeJointParameters {
+            axis 0 1 0
+            anchor 0 0.02 0
+          }
+          device [
+            RotationalMotor {
+              name "RM"
+            }
+          ]
+          endPoint Solid {
+            translation 0 0.015 -0.006
+            rotation 0 0 1 0
+            scale 0.5 0.5 0.5
+            children [
+              Camera {
+                translation 0 0.01 -0.01
+                name "mod_camera"
+                width 1080
+                height 1080
+                recognition Recognition {
+                  frameColor 0 1 0
+                  frameThickness 3
+                }
+              }
+              Shape {
+                appearance PBRAppearance {
+                }
+                geometry Cylinder {
+                  height 0.02
+                  radius 0.01
+                }
+              }
+            ]
+          }
+        }
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0 1
+            roughness 1
+          }
+          geometry Box {
+            size 0.02 0.02 0.02
+          }
+        }
+      ]
+    }
+  ]
+}
+E-puck {
+  translation -0.569034 9.27036e-15 0.0608538
+  name "follower_e-puck1(1)"
+  controller "follower"
+  turretSlot [
+    Solid {
+      translation 0 0.005 0.02
+      scale 1.5 1.5 1.5
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0 0
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.01
+            subdivision 2
+          }
+        }
+      ]
+      name "solid(1)"
+      recognitionColors [
+        1 0 0
+      ]
+    }
+    Solid {
+      children [
+        HingeJoint {
+          jointParameters HingeJointParameters {
+            axis 0 1 0
+            anchor 0 0.02 0
+          }
+          device [
+            RotationalMotor {
+              name "RM"
+            }
+          ]
+          endPoint Solid {
+            translation 0 0.015 -0.006
+            rotation 0 0 1 0
+            scale 0.5 0.5 0.5
+            children [
+              Camera {
+                translation 0 0.01 -0.01
+                name "mod_camera"
+                width 1080
+                height 1080
+                recognition Recognition {
+                  frameColor 0 1 0
+                  frameThickness 3
+                }
+              }
+              Shape {
+                appearance PBRAppearance {
+                }
+                geometry Cylinder {
+                  height 0.02
+                  radius 0.01
+                }
+              }
+            ]
+          }
+        }
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0 1
+            roughness 1
+          }
+          geometry Box {
+            size 0.02 0.02 0.02
+          }
+        }
+      ]
+    }
+  ]
+}
+E-puck {
+  translation -2.5176 3.4417e-15 2.23043
+  name "follower_e-puck1(12)"
+  controller "follower"
+  turretSlot [
+    Solid {
+      translation 0 0.005 0.02
+      scale 0.5 0.5 0.5
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0 0
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.01
+            subdivision 2
+          }
+        }
+      ]
+      name "solid(1)"
+      recognitionColors [
+        1 0 0
+      ]
+    }
+    Solid {
+      children [
+        HingeJoint {
+          jointParameters HingeJointParameters {
+            axis 0 1 0
+            anchor 0 0.02 0
+          }
+          device [
+            RotationalMotor {
+              name "RM"
+            }
+          ]
+          endPoint Solid {
+            translation 0 0.015 -0.006
+            rotation 0 0 1 0
+            scale 0.5 0.5 0.5
+            children [
+              Camera {
+                translation 0 0.01 -0.01
+                name "mod_camera"
+                width 1080
+                height 1080
+                recognition Recognition {
+                  frameColor 0 1 0
+                  frameThickness 3
+                }
+              }
+              Shape {
+                appearance PBRAppearance {
+                }
+                geometry Cylinder {
+                  height 0.02
+                  radius 0.01
+                }
+              }
+            ]
+          }
+        }
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0 1
+            roughness 1
+          }
+          geometry Box {
+            size 0.02 0.02 0.02
+          }
+        }
+      ]
+    }
+  ]
+}
+E-puck {
+  translation -0.565509 7.21647e-16 0.206926
+  name "follower_e-puck1(10)"
+  controller "follower"
+  turretSlot [
+    Solid {
+      translation 0 0.005 0.02
+      scale 1.5 1.5 1.5
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0 0
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.01
+            subdivision 2
+          }
+        }
+      ]
+      name "solid(1)"
+      recognitionColors [
+        1 0 0
+      ]
+    }
+    Solid {
+      children [
+        HingeJoint {
+          jointParameters HingeJointParameters {
+            axis 0 1 0
+            anchor 0 0.02 0
+          }
+          device [
+            RotationalMotor {
+              name "RM"
+            }
+          ]
+          endPoint Solid {
+            translation 0 0.015 -0.006
+            rotation 0 0 1 0
+            scale 0.5 0.5 0.5
+            children [
+              Camera {
+                translation 0 0.01 -0.01
+                name "mod_camera"
+                width 1080
+                height 1080
+                recognition Recognition {
+                  frameColor 0 1 0
+                  frameThickness 3
+                }
+              }
+              Shape {
+                appearance PBRAppearance {
+                }
+                geometry Cylinder {
+                  height 0.02
+                  radius 0.01
+                }
+              }
+            ]
+          }
+        }
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0 1
+            roughness 1
+          }
+          geometry Box {
+            size 0.02 0.02 0.02
+          }
+        }
+      ]
+    }
+  ]
+}
+E-puck {
+  translation -2.49023 2.83107e-14 2.37042
+  name "follower_e-puck1(9)"
+  controller "follower"
+  turretSlot [
+    Solid {
+      children [
+        HingeJoint {
+          jointParameters HingeJointParameters {
+            axis 0 1 0
+            anchor 0 0.02 0
+          }
+          device [
+            RotationalMotor {
+              name "RM"
+            }
+          ]
+          endPoint Solid {
+            translation 0 0.015 -0.006
+            rotation 0 0 1 0
+            scale 0.5 0.5 0.5
+            children [
+              Camera {
+                translation 0 0.01 -0.01
+                name "mod_camera"
+                width 1080
+                height 1080
+                recognition Recognition {
+                  frameColor 0 1 0
+                  frameThickness 3
+                }
+              }
+              Shape {
+                appearance PBRAppearance {
+                }
+                geometry Cylinder {
+                  height 0.02
+                  radius 0.01
+                }
+              }
+            ]
+          }
+        }
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0 1
+            roughness 1
+          }
+          geometry Box {
+            size 0.02 0.02 0.02
+          }
+        }
+      ]
+    }
+  ]
+}
+E-puck {
+  translation -4.97401 1.66534e-15 7.66617
+  name "follower_e-puck1(8)"
+  controller "follower"
+  turretSlot [
+    Solid {
+      children [
+        HingeJoint {
+          jointParameters HingeJointParameters {
+            axis 0 1 0
+            anchor 0 0.02 0
+          }
+          device [
+            RotationalMotor {
+              name "RM"
+            }
+          ]
+          endPoint Solid {
+            translation 0 0.015 -0.006
+            rotation 0 0 1 0
+            scale 0.5 0.5 0.5
+            children [
+              Camera {
+                translation 0 0.01 -0.01
+                name "mod_camera"
+                width 1080
+                height 1080
+                recognition Recognition {
+                  frameColor 0 1 0
+                  frameThickness 3
+                }
+              }
+              Shape {
+                appearance PBRAppearance {
+                }
+                geometry Cylinder {
+                  height 0.02
+                  radius 0.01
+                }
+              }
+            ]
+          }
+        }
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0 1
+            roughness 1
+          }
+          geometry Box {
+            size 0.02 0.02 0.02
+          }
+        }
+      ]
+    }
+  ]
+}
+E-puck {
+  translation -2.51289 1.66534e-15 2.09158
+  name "follower_e-puck1(7)"
+  controller "follower"
+  turretSlot [
+    Solid {
+      children [
+        HingeJoint {
+          jointParameters HingeJointParameters {
+            axis 0 1 0
+            anchor 0 0.02 0
+          }
+          device [
+            RotationalMotor {
+              name "RM"
+            }
+          ]
+          endPoint Solid {
+            translation 0 0.015 -0.006
+            rotation 0 0 1 0
+            scale 0.5 0.5 0.5
+            children [
+              Camera {
+                translation 0 0.01 -0.01
+                name "mod_camera"
+                width 1080
+                height 1080
+                recognition Recognition {
+                  frameColor 0 1 0
+                  frameThickness 3
+                }
+              }
+              Shape {
+                appearance PBRAppearance {
+                }
+                geometry Cylinder {
+                  height 0.02
+                  radius 0.01
+                }
+              }
+            ]
+          }
+        }
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0 1
+            roughness 1
+          }
+          geometry Box {
+            size 0.02 0.02 0.02
+          }
+        }
+      ]
+    }
+  ]
+}
+E-puck {
+  translation -2.50237 1.66534e-15 1.96768
+  name "follower_e-puck1(2)"
+  controller "follower"
+  turretSlot [
+    Solid {
+      translation 0 0.005 0.02
+      scale 0.5 0.5 0.5
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0 0
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.01
+            subdivision 2
+          }
+        }
+      ]
+      name "solid(1)"
+      recognitionColors [
+        1 0 0
+      ]
+    }
+    Solid {
+      children [
+        HingeJoint {
+          jointParameters HingeJointParameters {
+            axis 0 1 0
+            anchor 0 0.02 0
+          }
+          device [
+            RotationalMotor {
+              name "RM"
+            }
+          ]
+          endPoint Solid {
+            translation 0 0.015 -0.006
+            rotation 0 0 1 0
+            scale 0.5 0.5 0.5
+            children [
+              Camera {
+                translation 0 0.01 -0.01
+                name "mod_camera"
+                width 1080
+                height 1080
+                recognition Recognition {
+                  frameColor 0 1 0
+                  frameThickness 3
+                }
+              }
+              Shape {
+                appearance PBRAppearance {
+                }
+                geometry Cylinder {
+                  height 0.02
+                  radius 0.01
+                }
+              }
+            ]
+          }
+        }
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0 1
+            roughness 1
+          }
+          geometry Box {
+            size 0.02 0.02 0.02
+          }
+        }
+      ]
+    }
+  ]
+}
+Rock17cm {
+  translation -1.32225 1.09246e-13 1.88176
+}
+MazeBlock {
+  translation 1.94 0 1.28
+  length 0.9
+}
+MazeBlock {
+  translation -1.35652 -1.82076e-14 -1.79359
+  rotation 0 1 0 1.5708
+  name "maze block(1)"
+  length 0.9
+}
+Rock10cm {
+  translation -1.80833 0.05 -1.62189
+  rotation 0 1 0 -0.785395307179586
+  name "rock 10 cm(1)"
+}
+Rock10cm {
+  translation 1.37896 0.05 0.36431
+}
+E-puck {
+  translation -0.570235 -5.55112e-15 -0.111412
+  name "leader_e-puck"
+  controller "auto_manual_control"
+  turretSlot [
+    Solid {
+      translation 0 0.005 0.01
+      scale 1.5 1.5 1.5
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0 0
+            roughness 1
+            metalness 0
+          }
+          geometry Sphere {
+            radius 0.01
+            subdivision 2
+          }
+        }
+      ]
+      recognitionColors [
+        1 0 0
+      ]
+    }
+  ]
+}
+CardboardBox {
+  translation -1.40296 0.05 -0.497856
+  size 0.1 0.1 0.1
+}
+CardboardBox {
+  translation -0.149953 0.05 -0.621096
+  name "cardboard box(10)"
+  size 0.1 0.1 0.1
+}
+CardboardBox {
+  translation -0.797051 0.05 1.25834
+  name "cardboard box(1)"
+  size 0.1 0.1 0.1
+}
+CardboardBox {
+  translation 1.90345 0.05 -0.38745
+  name "cardboard box(2)"
+  size 0.1 0.1 0.1
+}
+CardboardBox {
+  translation 1.12142 0.05 1.64538
+  name "cardboard box(3)"
+  size 0.1 0.1 0.1
+}
+CardboardBox {
+  translation 0.248628 0.05 0.989985
+  name "cardboard box(6)"
+  size 0.1 0.1 0.1
+}
+CardboardBox {
+  translation -0.214127 0.05 0.899328
+  name "cardboard box(9)"
+  size 0.1 0.1 0.1
+}
+CardboardBox {
+  translation -0.432021 0.05 2.32654
+  name "cardboard box(7)"
+  size 0.1 0.1 0.1
+}
+CardboardBox {
+  translation 0.534754 0.05 0.197675
+  name "cardboard box(8)"
+  size 0.1 0.1 0.1
+}
+CardboardBox {
+  translation -1.78073 0.05 0.303282
+  name "cardboard box(4)"
+  size 0.1 0.1 0.1
+}
+CardboardBox {
+  translation -2.11646 0.05 1.36541
+  name "cardboard box(5)"
+  size 0.1 0.1 0.1
+}
+WoodenBox {
+  translation 0.250674 0.05 -1.74487
+  size 0.1 0.1 0.1
+}
+WoodenBox {
+  translation -0.577077 0.05 -0.942935
+  name "wooden box(6)"
+  size 0.1 0.1 0.1
+}
+WoodenBox {
+  translation -0.602218 0.05 -1.73287
+  name "wooden box(7)"
+  size 0.1 0.1 0.1
+}
+WoodenBox {
+  translation 1.92465 0.05 -1.76641
+  name "wooden box(1)"
+  size 0.1 0.1 0.1
+}
+WoodenBox {
+  translation -1.16877 0.05 0.000304567
+  name "wooden box(8)"
+  size 0.1 0.1 0.1
+}
+WoodenBox {
+  translation -1.00885 0.05 0.515566
+  name "wooden box(9)"
+  size 0.1 0.1 0.1
+}
+WoodenBox {
+  translation -1.3133 0.05 2.35247
+  name "wooden box(11)"
+  size 0.1 0.1 0.1
+}
+WoodenBox {
+  translation -2.3446 0.05 0.55713
+  name "wooden box(12)"
+  size 0.1 0.1 0.1
+}
+WoodenBox {
+  translation 1.85362 0.05 2.29336
+  name "wooden box(3)"
+  size 0.1 0.1 0.1
+}
+WoodenBox {
+  translation 1.03065 0.05 -0.317456
+  name "wooden box(2)"
+  size 0.1 0.1 0.1
+}
+WoodenBox {
+  translation 0.614791 0.05 -1.0159
+  name "wooden box(10)"
+  size 0.1 0.1 0.1
+}
+WoodenBox {
+  translation 0.910183 0.05 -1.38838
+  name "wooden box(4)"
+  size 0.1 0.1 0.1
+}
+WoodenBox {
+  translation -0.136654 0.05 1.59843
+  name "wooden box(5)"
+  size 0.1 0.1 0.1
+}
+PlasticCrate {
+  translation 0.42065 0 2.39035
+  size 0.1 0.1 0.1
+}
+PlasticCrate {
+  translation 0.430864 1.59872e-14 1.76609
+  name "plastic crate(9)"
+  size 0.1 0.1 0.1
+}
+PlasticCrate {
+  translation 1.16034 1.77636e-15 2.29757
+  name "plastic crate(5)"
+  size 0.1 0.1 0.1
+}
+PlasticCrate {
+  translation 0.953893 4.44089e-16 0.830776
+  name "plastic crate(6)"
+  size 0.1 0.1 0.1
+}
+PlasticCrate {
+  translation -1.15965 1.59872e-13 -1.09658
+  name "plastic crate(7)"
+  size 0.1 0.1 0.1
+}
+PlasticCrate {
+  translation 0.245389 0 -0.671735
+  name "plastic crate(1)"
+  size 0.1 0.1 0.1
+}
+PlasticCrate {
+  translation 1.79271 0 0.853297
+  name "plastic crate(10)"
+  size 0.1 0.1 0.1
+}
+PlasticCrate {
+  translation 1.50539 7.10543e-15 -1.12145
+  name "plastic crate(2)"
+  size 0.1 0.1 0.1
+}
+PlasticCrate {
+  translation -2.13897 -1.33227e-15 -0.533162
+  name "plastic crate(3)"
+  size 0.1 0.1 0.1
+}
+PlasticCrate {
+  translation -2.29208 -2.37045e-21 -1.37519
+  name "plastic crate(8)"
+  size 0.1 0.1 0.1
+}
+PlasticCrate {
+  translation -1.49908 -3.10862e-15 0.99833
+  name "plastic crate(4)"
+  size 0.1 0.1 0.1
+}
+TexturedBoxShape {
+  textureMapping "metric"
+}
+DesktopComputer {
+  translation -2.22433 1.77636e-15 2.14045
+}
